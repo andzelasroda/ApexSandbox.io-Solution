@@ -1,0 +1,10 @@
+public Boolean sumEquals(Integer a, Integer b, Integer c) {
+Integer d = math.abs(a+b);
+
+if (d>c){
+    return TRUE;
+}
+else{
+    return FALSE;
+}
+}
