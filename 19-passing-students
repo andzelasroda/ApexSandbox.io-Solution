@@ -1,0 +1,14 @@
+public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
+    if(isPassed(true, true, false)){
+        return true;
+    }
+    if(isPassed(false, true, true)){
+        return true;
+    }
+    if(isPassed(true, false, true)){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
