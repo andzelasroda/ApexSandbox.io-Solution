@@ -1,9 +1,9 @@
 public Integer diff(Integer a, Integer b) {
 Integer c;
 if(a>b){
-    return math.c(a-b);
+    return math.abs(a-b);
 }
 else{
-    return math.c(b-a);
+    return math.abs(b-a);
 }
 }
