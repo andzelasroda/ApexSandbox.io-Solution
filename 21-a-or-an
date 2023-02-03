@@ -1,0 +1,4 @@
+public String aOrAn(String word) {
+    String vowel ='a';
+    startsWith(word.String vowel);
+}
