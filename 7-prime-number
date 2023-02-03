@@ -1,0 +1,8 @@
+public Boolean isPrime(Integer num) {
+    if(math.mod(num,2)==0){
+        return FALSE;
+    }
+    else{
+        return TRUE;
+    }
+}
