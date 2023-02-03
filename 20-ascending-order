@@ -2,6 +2,9 @@ public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
     if((b>a)||(b==a)&&(c>b)){
         return TRUE;
     }
+    if((b==a)&&(b==c)){
+        return TRUE;
+    }
     else{
         return FALSE;
     }
