@@ -1,4 +1,9 @@
 public Integer diff(Integer a, Integer b) {
-    Integer a = math.abs(a-b);
-    Integer b = math.abs(b-a);
+    if (a>b) { 
+     diff = (a-b);
+} else if (b>a) {
+     diff = (b-a);
+} else if (a==b) {
+    diff = 0;
+}
 }
