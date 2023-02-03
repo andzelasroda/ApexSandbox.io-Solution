@@ -1,8 +1,15 @@
 public Boolean isLeapYear(Integer year) {
-    if(math.mod(year)==0){
-        return TRUE;
-    }
-    else{
-        return FALSE;
-    }
+    if (math.mod(year, 4) == 0) {
+        if (math.mod(year, 100) == 0) {
+            if (math.mod(year, 400) == 0) {
+                return true;        // 2000
+            } else {
+                return false;       // 1900
+            }
+        } else {
+            return true;            // 2004
+        }
+    } else {
+        return false;               // 2001
+}
 }
