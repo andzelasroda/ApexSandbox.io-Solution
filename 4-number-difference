@@ -1,0 +1,4 @@
+public Integer diff(Integer a, Integer b) {
+    Integer a = math.abs(b);
+    Integer b = math.abs(a);
+}
