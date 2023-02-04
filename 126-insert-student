@@ -1,4 +1,4 @@
 public Id insertStudent(String name, String email) {
-apxio__Student__c std = new apxio__Student__c(name=Name,email=apxio__Email__c);
+apxio__Student__c std = new apxio__Student__c(name=Name,email=apxio_Email__c);
 insert std;
 }
